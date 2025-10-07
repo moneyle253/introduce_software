@@ -5,7 +5,7 @@
 Họ tên: Lê Hoàng Tiền
 MSSV: K23DTCN309
 Lớp: HKV_NMCNPM
-Github Profile: github.com/moneyle253
+Github Profile: https://github.com/moneyle253
 🏪 Đề tài: ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
 🎯 Mục tiêu
 Xây dựng một ứng dụng hỗ trợ quản lý bán hàng tạp hóa theo mô hình hiện đại, tích hợp quản lý kho, hóa đơn và khách hàng.
