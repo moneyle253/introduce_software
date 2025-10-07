@@ -2,10 +2,10 @@
 (Introduction to Software Engineering – PTIT)
 
 👨‍🎓 Thông tin sinh viên
-Họ tên: Đại Anh Dũng
-MSSV: K23DTCN268
+Họ tên: Lê Hoàng Tiền
+MSSV: K23DTCN309
 Lớp: HKV_NMCNPM
-Github Profile: github.com/daianhdung
+Github Profile: github.com/moneyle253
 🏪 Đề tài: ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
 🎯 Mục tiêu
 Xây dựng một ứng dụng hỗ trợ quản lý bán hàng tạp hóa theo mô hình hiện đại, tích hợp quản lý kho, hóa đơn và khách hàng.
@@ -45,7 +45,7 @@ Commit toàn bộ tài liệu và diagram lên GitHub repo này.
 📂 Kết quả nộp
 Thư mục: /lab3/
 project_plan.pdf, risk_management.xlsx
-Link GitHub: https://github.com/daianhdung/introduce_software
+Link GitHub: https://github.com/moneyle253/introduce_software
 📒 Lab 4 – Thiết kế, Kiểm thử & Triển khai
 🔹 Nội dung
 Thiết kế giao diện người dùng (UI) và cơ sở dữ liệu.
