@@ -1,4 +1,6 @@
-# 🛠️ Software Engineering Project – XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
+# 🛠️ Software Engineering Project 
+
+# XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
 
 ## 📌 Giới thiệu
 
@@ -7,13 +9,11 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm: **Phân tích 
 
 ---
 
-## 👥 Thành viên nhóm
+##
 
-| Họ tên        | Vai trò            |        |
-| ------------- | ------------------ | ------ |
-| Lê Hoàng Tiền | Leader / Developer |        |
-| A             | Backend Developer  |        |
-| B             | Frontend DevelC    | Tester |
+* **Student Name**: LÊ HOÀNG TIỀN
+* **Student Id**: K23DTCN309
+* **Class**: D23TXCN06-K
 
 📂 **GitHub Profile:** [https://github.com/moneyle253](https://github.com/moneyle253🎯)
 
@@ -137,15 +137,6 @@ cd grocery-shop-4.0
 * Tài liệu tổng hợp (PDF)
 * Source code + DB script (GitHub)
 * Báo cáo demo & test
-
----
-
-## 📎 Liên kết nhanh
-
-* [📘 Project Definition & SRS](./docs/SRS.md)
-* [🧩 UML Models](./docs/uml/)
-* [📅 Project Plan (PDF)](./docs/project-plan.pdf)
-* [💻 Source Code](https://github.com/HuyPG0399/grocery-shop-4.0)
 
 ---
 
