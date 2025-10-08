@@ -1,4 +1,4 @@
-# XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA 4.0 — README
+# XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA 4.0
 
 Họ tên: Lê Hoàng Tiền 
 
@@ -6,21 +6,6 @@ MSSV: K23DTCN309
 
 Lớp: HKV_NMCNPM Github Profile: https://github.com/moneyle253
 Nhập môn Công nghệ Phần mềm — Lab Practices
-
----
-
-## Mục lục
-
-1. [Tổng quan dự án](#tổng-quan-dự-án)
-2. [Các Lab & Kết quả yêu cầu](#các-lab--kết-quả-yêu-cầu)
-3. [Project Definition (mẫu)](#project-definition-mẫu)
-4. [Software Requirements Specification — SRS (mẫu)](#software-requirements-specification--srs-mẫu)
-5. [Thiết kế & UML (mẫu nội dung)](#thiết-kế--uml-mẫu-nội-dung)
-6. [Quản lý dự án & GitHub](#quản-lý-dự-án--github)
-7. [Cấu trúc repo đề xuất](#cấu-trúc-repo-đề-xuất)
-8. [Hướng dẫn nộp bài & checklist](#hướng-dẫn-nộp-bài--checklist)
-
----
 
 ## Tổng quan dự án
 
@@ -210,14 +195,6 @@ npm run dev
 * Student profile: https://github.com/moneyle253
 
 ```
-
----
-
-### Ghi chú
-- Thực hiện: sao chép các mẫu vào file `.docx` hoặc `.md`, hoàn thiện thông tin nhóm và mô tả chi tiết ở mỗi phần.  
-- Muốn tôi chuyển sẵn `SRS.docx` hoặc `README.md` thành file thực tế trong repo không? (tôi có thể tạo bản README.md chi tiết hoặc file SRS theo template để bạn tải về).
-
----
 
 *Tài liệu này là bản mẫu README để đưa vào repo. Chỉnh sửa tên nhóm, link GitHub và các chi tiết thực tế trước khi nộp.*
 
