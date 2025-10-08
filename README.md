@@ -1,198 +1,156 @@
-# XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA 4.0
+# 🛠️ Software Engineering Project – XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
 
-Họ tên: Lê Hoàng Tiền 
+## 📌 Giới thiệu
 
-MSSV: K23DTCN309 
-
-Lớp: K23TXCN06-K 
-
-Github Profile: https://github.com/moneyle253
-
-Nhập môn Công nghệ Phần mềm — Lab Practices
-
-## Tổng quan dự án
-
-**Tên dự án:** Hệ thống Bán lẻ Tạp hóa 4.0 (Grocery Shop 4.0)
-
-**Mục tiêu:** Xây dựng web app cho cửa hàng tạp hóa, hỗ trợ quản lý hàng hóa, tồn kho, bán hàng, khách hàng & báo cáo.
-
-**Công nghệ gợi ý:** Frontend (React/Vue) + Backend (Node.js/Express | Django | SpringBoot | ASP.NET Core) + DB (MySQL / SQL Server).
+Dự án này được phát triển trong môn **Nhập môn Công nghệ Phần mềm (Introduction to Software Engineering – Lab Practices)**.
+Mục tiêu là áp dụng quy trình phát triển phần mềm: **Phân tích yêu cầu → Thiết kế → Lập trình → Kiểm thử → Triển khai**, nhằm tạo ra một ứng dụng bán lẻ tạp hóa ứng dụng công nghệ 4.0.
 
 ---
 
-## Các Lab & Kết quả yêu cầu
+## 👥 Thành viên nhóm
 
-### Lab 1 — Khởi tạo dự án & Định nghĩa yêu cầu
+| Họ tên        | Vai trò            |        |
+| ------------- | ------------------ | ------ |
+| Lê Hoàng Tiền | Leader / Developer |        |
+| A             | Backend Developer  |        |
+| B             | Frontend DevelC    | Tester |
 
-* Viết **Project Definition**.
-* Viết **SRS** theo template (tập tin: `docs/SRS.docx` hoặc `.md`).
-* Nộp: file `.doc` chứa Project Definition + SRS.
+📂 **GitHub Profile:** [https://github.com/moneyle253](https://github.com/moneyle253🎯)
 
-### Lab 2 — Phân tích & Mô hình hóa
+[🎯](https://github.com/moneyle253🎯) Use Case chính
 
-* Use Case Diagram + mô tả use case.
-* Activity Diagram cho 1 chức năng chính.
-* Class Diagram & Sequence Diagram.
-* ERD & DFD (Level 0, Level 1).
-* Nộp: ảnh/diagram trong `docs/uml/`.
+* Quản lý người dùng (đăng ký, đăng nhập, phân quyền)
+* Quản lý sản phẩm / dịch vụ (thêm, sửa, xóa, xem chi tiết)
+* Xử lý giao dịch (tạo đơn hàng, thanh toán, in hóa đơn)
+* Báo cáo & thống kê doanh thu, tồn kho
 
-### Lab 3 — Quản lý dự án & Cấu hình
-
-* WBS + Gantt Chart (Jira/Confluence hoặc Gantt ở Excel).
-* GitHub repo, commit tài liệu.
-* Risk Management document.
-* Nộp: `docs/project-plan.pdf` + link repo.
-
-### Lab 4 — Thiết kế, Kiểm thử & Triển khai
-
-* Thiết kế UI mẫu, database schema.
-* Cài đặt 1 module theo MVC.
-* Unit tests & quản lý lỗi (GitHub Issues / Mentis).
-* Triển khai demo (Heroku/Azure/XAMPP).
-* Nộp: source code + report.
+📎 *(Chèn hình sơ đồ Use Case tại đây: ./docs/uml/usecase.png)*
 
 ---
 
-## Project Definition (mẫu)
+## 📐 Thiết kế hệ thống
 
-**1. Tên dự án**
-**2. Mô tả ngắn gọn (1 đoạn)**
-**3. Bối cảnh & Lý do thực hiện**
-**4. Mục tiêu & Phạm vi**
-
-* Mục tiêu chính
-* Phạm vi: (ví dụ: Quản lý kho, POS, Khách hàng, Báo cáo)
-  **5. Người liên quan (Stakeholders)**
-* Chủ cửa hàng, Nhân viên bán hàng, Quản lý kho, Khách hàng, Giảng viên.
-  **6. Ràng buộc & Giả định**
-* Ngôn ngữ, CSDL, Thời gian, Ngân sách (nếu có).
-  **7. Kết quả bàn giao**
-* Tài liệu, Source code, Database script, Demo.
+| Sơ đồ                                 | Tên file       |
+| ------------------------------------- | -------------- |
+| **Use Case Diagram**                  | `usecase.png`  |
+| **Activity Diagram**                  | `activity.png` |
+| **Class Diagram**                     | `class.png`    |
+| **Sequence Diagram**                  | `sequence.png` |
+| **ERD (Entity Relationship Diagram)** | `erd.png`      |
+| **DFD (Level 0 & 1)**                 | `dfd.png`      |
 
 ---
 
-## SRS (mẫu cấu trúc & nội dung chính)
+## 💻 Công nghệ sử dụng
 
-> *Lưu ý: copy phần này vào file ****************`docs/SRS.docx`**************** hoặc ****************`docs/SRS.md`**************** và điền chi tiết.*
-
-1. **Giới thiệu**
-
-   * Mục đích tài liệu
-   * Phạm vi hệ thống
-   * Định nghĩa, thuật ngữ
-2. **Tổng quan tổng thể**
-
-   * Môi trường hoạt động
-   * Người dùng & yêu cầu chung
-3. **Yêu cầu chức năng (Functional Requirements)**
-
-   * FR1: Quản lý sản phẩm (CRUD)
-   * FR2: Quản lý kho (nhập/xuất, tồn)
-   * FR3: POS: tạo hóa đơn, thanh toán
-   * FR4: Quản lý khách hàng (thẻ, lịch sử mua)
-   * FR5: Báo cáo (bán hàng, tồn kho)
-   * Mỗi FR nên có: ID, mô tả, tiền đề, bước chính, dữ liệu trả về
-4. **Yêu cầu phi chức năng (Non-functional Requirements)**
-
-   * Hiệu năng: X user đồng thời
-   * Bảo mật: authentication, authorization
-   * Khả năng mở rộng, backup, logging
-   * Tương thích trình duyệt
-5. **Ràng buộc hệ thống**
-
-   * CSDL: MySQL 8
-   * Platform: Linux/Windows server
-6. **Use cases (tóm tắt)**
-7. **Priority và roadmap phát triển**
-8. **Appendix**: DB schema sơ bộ, API endpoints mẫu
+* **Ngôn ngữ:** Java / Python / JavaScript / PHP
+* **IDE:** Visual Studio Code / IntelliJ / Eclipse
+* **CSDL:** MySQL / PostgreSQL
+* **Quản lý phiên bản:** Git + GitHub
+* **Phương pháp phát triển:** Agile – Scrum
 
 ---
 
-## Thiết kế & UML (mẫu nội dung cần nộp)
+## 🚀 Cài đặt & chạy thử
 
-* Use Case Diagram (PNG/SVG) + mô tả từng use case (actor, precondition, flow, postcondition).
-* Activity Diagram cho tính năng: **Tạo hóa đơn & thanh toán**.
-* Class Diagram: các lớp domain (Product, Order, Customer, Inventory, User).
-* Sequence Diagram: Tạo đơn hàng (frontend → backend → db → thanh toán).
-* ERD: tables chính & quan hệ.
-* DFD: Level 0 (hệ thống chính), Level 1 (quy trình bán hàng, quản lý kho).
-
----
-
-## Quản lý dự án & GitHub
-
-**Project Plan:**
-
-* Tạo WBS (Work Breakdown Structure)
-* Gantt chart: thời gian, milestone (Lab1..Lab4, Mid-demo, Final)
-* Risk log: mô tả, xác suất, ảnh hưởng, biện pháp giảm thiểu
-
-**GitHub best practices:**
-
-* Repo: `grocery-shop-4.0`
-* Branching: `main` (production), `dev` (tích hợp), feature branches `feature/<tên>`
-* Commit message: (Conventional Commits) `feat: add product api` / `fix: correct stock calc`.
-* PR template & Issue templates (bug, feature request)
-
-**Ví dụ liên kết (đưa vào README)**
-
-* SRS: `./docs/SRS.md`
-* UML: `./docs/uml/`
-* Project Plan: `./docs/project-plan.pdf`
-* Repo code: `https://github.com/<org-or-user>/grocery-shop-4.0`
-
----
-
-## Cấu trúc repo (đề xuất)
-
-```
-/grocery-shop-4.0
-│
-├─ /docs
-│   ├─ SRS.md
-│   ├─ ProjectDefinition.docx
-│   ├─ project-plan.pdf
-│   └─ /uml
-│       ├─ usecase.png
-│       ├─ class.png
-│       └─ erd.png
-│
-├─ /src
-│   ├─ /backend
-│   └─ /frontend
-│
-├─ /db
-│   └─ schema.sql
-│
-├─ /tests
-│
-├─ README.md  <-- (bản rút gọn của file này)
-└─ .github
-    ├─ ISSUE_TEMPLATE.md
-    └─ PULL_REQUEST_TEMPLATE.md
-```
-
-
----
-
-## Một số mẫu nhúng vào README (Markdown)
-
-````
-[Project SRS](./docs/SRS.md)
-[UML diagrams](./docs/uml/)
-[Project Plan (PDF)](./docs/project-plan.pdf)
-
-## Clone & chạy (ví dụ Node.js)
 ```bash
-git clone https://github.com/<user>/grocery-shop-4.0.git
-cd grocery-shop-4.0/src/backend
-npm install
-npm run dev
-````
+git clone https://github.com/moneyle253grocery-shop-4.0.git
+cd grocery-shop-4.0
+```
 
-## Liên hệ
+---
 
-* Student profile: https://github.com/moneyle253
+## 🧪 LAB PRACTICES
+
+### **Lab 1 – Khởi tạo dự án & Định nghĩa yêu cầu**
+
+**Nội dung:**
+
+* Giới thiệu mô hình tiến trình phần mềm: *Waterfall, Incremental, Agile*.
+* Viết **Project Definition** và **Software Requirement Specification (SRS)**.
+
+**Bài tập:**
+
+* Chọn 1 mini project (VD: Quản lý khách sạn, thư viện,...).
+* Viết Project Definition + SRS theo template.
+  **Kết quả:** file `.doc` chứa Project Definition + SRS.
+
+---
+
+### **Lab 2 – Phân tích & Mô hình hóa hệ thống**
+
+**Nội dung:**
+
+* Vẽ **Use Case Diagram** + mô tả use case.
+* Xây dựng **Activity Diagram** và **Flow of Events**.
+* Vẽ **Class Diagram**, **Sequence Diagram**, **ERD**, **DFD**.
+
+**Kết quả:** file UML + hình ảnh sơ đồ.
+
+---
+
+### **Lab 3 – Quản lý dự án & Cấu hình**
+
+**Nội dung:**
+
+* Lập **Project Plan**, **WBS**, **Gantt Chart** bằng Jira & Confluence.
+* Phân tích rủi ro (Risk Management).
+* Quản lý mã nguồn bằng GitHub.
+
+**Kết quả:** file `.pdf` + link GitHub.
+
+---
+
+### **Lab 4 – Thiết kế, Kiểm thử & Triển khai**
+
+**Nội dung:**
+
+* Thiết kế giao diện + Database Diagram.
+* Ứng dụng mô hình **MVC + SOA** trong demo.
+* Viết **Unit Test** & quản lý lỗi (GitHub Issues / Mentis).
+* Đóng gói setup & deploy dự án.
+
+**Kết quả:** Source code + báo cáo kiểm thử & triển khai.
+
+---
+
+## 🎓 Đồ án cuối khóa (Course Project)
+
+**Yêu cầu:**
+
+* Mỗi nhóm (2–3 SV) phát triển 1 ứng dụng web theo quy trình đã học.
+* Ví dụ: *Hệ thống quản lý đặt phòng khách sạn trực tuyến.*
+
+**Nội dung bắt buộc:**
+
+1. Project Definition + SRS (tài liệu)
+2. UML Models: Use Case, Activity, Class, Sequence, ERD, DFD
+3. Project Plan + Risk Management
+4. Thiết kế giao diện + CSDL
+5. Cài đặt web app (MVC: .NET / Java / PHP / Python)
+6. Quản lý cấu hình (GitHub / SVN)
+7. Testing + Report
+8. Deploy demo (Heroku / Azure / XAMPP / server nội bộ)
+
+**Kết quả nộp:**
+
+* Tài liệu tổng hợp (PDF)
+* Source code + DB script (GitHub)
+* Báo cáo demo & test
+
+---
+
+## 📎 Liên kết nhanh
+
+* [📘 Project Definition & SRS](./docs/SRS.md)
+* [🧩 UML Models](./docs/uml/)
+* [📅 Project Plan (PDF)](./docs/project-plan.pdf)
+* [💻 Source Code](https://github.com/HuyPG0399/grocery-shop-4.0)
+
+---
+
+✨ *Hoàn thành toàn bộ các Lab và đồ án cuối khóa theo đúng quy trình phần mềm.*
+
 
 ```
 
