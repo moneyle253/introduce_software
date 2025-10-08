@@ -1,75 +1,74 @@
-🛠️ Software Engineering Project – [Tên dự án]
-📌 Giới thiệu
-Dự án này được phát triển trong môn Nhập môn Công nghệ Phần mềm.
-Mục tiêu là áp dụng quy trình phát triển phần mềm, từ phân tích yêu cầu, thiết kế, lập trình, kiểm thử và triển khai.
-
+NHẬP MÔN CÔNG NGHỆ PHẦN MỀM
+INTRODUCTION TO SOFTWARE ENGINEERING - PTIT
+LAB-PRACTICES
 👨‍🎓 Thông tin sinh viên
 Họ tên: Lê Hoàng Tiền
 MSSV: K23DTCN309
 Lớp: HKV_NMCNPM
 Github Profile: https://github.com/moneyle253
-🏪 Đề tài: ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
-🎯 Mục tiêu
-Xây dựng một ứng dụng hỗ trợ quản lý bán hàng tạp hóa theo mô hình hiện đại, tích hợp quản lý kho, hóa đơn và khách hàng.
-Ứng dụng tuân thủ quy trình phát triển phần mềm đã học, từ giai đoạn phân tích yêu cầu → thiết kế → lập kế hoạch → triển khai → kiểm thử.
-
-📘 Lab 1 – Khởi tạo dự án & Định nghĩa yêu cầu
-🔹 Nội dung
-Giới thiệu mô hình phát triển phần mềm (Waterfall, Incremental, Agile).
-Viết Project Definition và Software Requirement Specification (SRS).
-🧩 Bài tập
-Chọn đề tài mini-project (đề tài: Ứng dụng bán lẻ tạp hóa công nghệ 4.0).
-Soạn tài liệu Project Definition + SRS theo mẫu.
-📂 Kết quả nộp
-Project_Definition_SRS.docx
-Mô tả tóm tắt nội dung chính trong README này.
-📗 Lab 2 – Phân tích & Mô hình hóa hệ thống
-🔹 Nội dung
-Thiết kế Use Case, Activity, Class, Sequence, ERD, DFD.
-Mô tả luồng sự kiện và hành vi của hệ thống.
-🧩 Bài tập
-Vẽ sơ đồ UML dựa trên SRS của Lab 1:
-Use Case Diagram + mô tả chi tiết.
-Activity Diagram cho chức năng chính (ví dụ: xử lý đơn hàng).
-Class Diagram, Sequence Diagram.
-ERD và DFD (mức 0, mức 1).
-📂 Kết quả nộp
-Thư mục: /lab2/uml-diagrams/
-File UML (.drawio / .png / .pdf)
-📙 Lab 3 – Quản lý dự án & Quản lý cấu hình
-🔹 Nội dung
-Lập Project Plan, WBS, Gantt Chart bằng Jira/Confluence.
+XÂY DỰNG ỨNG DỤNG BÁN LẺ TẠP HÓA CÔNG NGHỆ 4.0
+Lab 1 – Khởi tạo dự án & Định nghĩa yêu cầu
+Nội dung:
+Giới thiệu các mô hình tiến trình phần mềm (Waterfall, Incremental, Agile).
+Định nghĩa dự án, viết Project Definition.
+Viết Software Requirement Specification (SRS).
+Bài tập:
+Chọn 1 mini-project (VD: hệ thống quản lý khách sạn, quản lý thư viện…).
+Viết Project Definition và SRS theo template.
+Kết quả nộp:
+File .doc chứa Project Definition + SRS.
+Lab 2 – Phân tích & Mô hình hóa hệ thống
+Nội dung:
+Vẽ Use Case Diagram và mô tả use case.
+Xây dựng Activity Diagram và mô tả Flow of Events.
+Vẽ Class Diagram và Sequence Diagram.
+Vẽ ERD và DFD.
+Bài tập:
+Dựa trên SRS đã làm, thiết kế:
+Use Case Diagram + mô tả use case.
+Activity Diagram cho 1 chức năng chính.
+Class Diagram và Sequence Diagram.
+ERD + DFD mức 0, mức 1.
+Kết quả nộp:
+File UML + hình ảnh các sơ đồ.
+Lab 3 – Quản lý dự án & Quản lý cấu hình
+Nội dung:
+Lập Project Plan, WBS, Gantt Chart bằng Jira & Confluence.
 Phân tích rủi ro (Risk Management).
 Quản lý mã nguồn bằng GitHub.
-🧩 Bài tập
+Bài tập:
 Tạo WBS + Gantt Chart cho dự án nhóm.
-Commit toàn bộ tài liệu và diagram lên GitHub repo này.
-📂 Kết quả nộp
-Thư mục: /lab3/
-project_plan.pdf, risk_management.xlsx
-Link GitHub: https://github.com/moneyle253/introduce_software
-📒 Lab 4 – Thiết kế, Kiểm thử & Triển khai
-🔹 Nội dung
-Thiết kế giao diện người dùng (UI) và cơ sở dữ liệu.
-Ứng dụng mô hình MVC + SOA trong phần demo.
-Viết Unit Test, quản lý lỗi bằng GitHub Issues hoặc Mentis.
-Đóng gói & triển khai.
-🧩 Bài tập
-Thiết kế UI (Figma hoặc HTML/CSS).
-Cài đặt module chính theo MVC (Java/Spring Boot hoặc .NET).
-Viết Unit Test & ghi nhận lỗi.
-Deploy demo (Heroku, Xampp, Azure,...)
-📂 Kết quả nộp
-Thư mục: /lab4/
-Source code + Database script
-Báo cáo kiểm thử và hướng dẫn deploy
-🧾 Đồ án cuối khóa (Course Project)
-🔹 Nội dung
-Hoàn thiện toàn bộ quy trình phát triển ứng dụng web nhóm (2–3 SV).
-Bao gồm tất cả các phần: Project Definition, UML, Plan, UI, DB, MVC, Testing, Deploy.
-Ví dụ: Hệ thống Quản lý đặt phòng khách sạn trực tuyến / Ứng dụng bán lẻ.
-📂 Kết quả nộp
-Final_Report.pdf
-Source code + DB script
-Báo cáo test & demo triển khai
-💡 Gợi ý cấu trúc thư mục repo
+Tạo repo GitHub, commit các file tài liệu đã làm.
+Kết quả nộp:
+File PDF, link GitHub.
+Lab 4 – Thiết kế, Kiểm thử & Triển khai
+Nội dung:
+Thiết kế giao diện + database diagram.
+Ứng dụng MVC + SOA trong demo.
+Kiểm thử đơn vị & quản lý lỗi với VS Test Tool + Mentis.
+Tạo setup & triển khai dự án.
+Bài tập:
+Thiết kế UI mẫu và CSDL (SQL Server / MySQL).
+Cài đặt một module nhỏ theo MVC.
+Viết Unit Test và quản lý lỗi với GitHub Issues / Mentis.
+Đóng gói setup hoặc deploy lên webserver.
+Kết quả nộp:
+Code trên GitHub + báo cáo test & deploy.
+Đồ án cuối khóa (Course Project)
+Yêu cầu:
+Mỗi nhóm (2–3 sinh viên) phát triển một ứng dụng web theo quy trình đã học.
+Ví dụ đề tài: Hệ thống Quản lý đặt phòng khách sạn trực tuyến.
+Nội dung bắt buộc:
+Project Definition + SRS (tài liệu).
+UML Models: Use Case, Activity, Class, Sequence, ERD, DFD.
+Project Plan + Risk Management.
+Thiết kế giao diện + CSDL.
+Cài đặt web app (dùng MVC framework .NET / Java / PHP / Python).
+Quản lý cấu hình (GitHub / SVN).
+Testing + Report.
+Deploy demo (Heroku, Azure, Xampp hoặc server nội bộ).
+Kết quả nộp:
+Tài liệu tổng hợp (PDF).
+Source code + DB script (GitHub).
+Báo cáo demo & test.
+--- HẾT ---
