@@ -4,13 +4,18 @@ Họ tên: Lê Hoàng Tiền
 
 MSSV: K23DTCN309 
 
-Lớp: HKV_NMCNPM Github Profile: https://github.com/moneyle253
+Lớp: K23TXCN06-K 
+
+Github Profile: https://github.com/moneyle253
+
 Nhập môn Công nghệ Phần mềm — Lab Practices
 
 ## Tổng quan dự án
 
 **Tên dự án:** Hệ thống Bán lẻ Tạp hóa 4.0 (Grocery Shop 4.0)
+
 **Mục tiêu:** Xây dựng web app cho cửa hàng tạp hóa, hỗ trợ quản lý hàng hóa, tồn kho, bán hàng, khách hàng & báo cáo.
+
 **Công nghệ gợi ý:** Frontend (React/Vue) + Backend (Node.js/Express | Django | SpringBoot | ASP.NET Core) + DB (MySQL / SQL Server).
 
 ---
@@ -167,11 +172,6 @@ Nhập môn Công nghệ Phần mềm — Lab Practices
     └─ PULL_REQUEST_TEMPLATE.md
 ```
 
----
-
-## Hướng dẫn nộp bài & Checklist (cần có trong README)
-
-*
 
 ---
 
@@ -196,6 +196,6 @@ npm run dev
 
 ```
 
-*Tài liệu này là bản mẫu README để đưa vào repo. Chỉnh sửa tên nhóm, link GitHub và các chi tiết thực tế trước khi nộp.*
+*HẾT*
 
 ```
